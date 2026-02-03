@@ -47,7 +47,7 @@ bookmarkFormEl.addEventListener("submit", function(event) {
     if (isValid) {
 
         createBookmarkItem(siteNameInputEl.value, siteUrlInputEl.value);
-        bookmarkFormEl.reset();
+        
         siteNameErrMsgEl.textContent = "";
         siteUrlErrMsgEl.textContent = "";
 
